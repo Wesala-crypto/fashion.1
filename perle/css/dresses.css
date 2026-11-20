@@ -1,0 +1,13 @@
+/* Dress wrappers, front/side layers, hover states, and the transparent hit columns. */
+.dress{position:absolute;width:0;height:0;top:291px;transition:left .34s var(--ease),opacity .22s linear}
+.nod .dress{opacity:0}
+.dress.gone{opacity:0;visibility:hidden;pointer-events:none}.dress.nt{transition:none}
+.art{position:absolute;background-image:var(--sheet);background-repeat:no-repeat;filter:drop-shadow(0 7px 9px rgba(96,52,38,.16));transition:transform .22s var(--ease),opacity .18s linear,filter .22s var(--ease)}
+.art.side{background-image:var(--side)}
+.art.front{opacity:0;transform:scaleX(.58)}
+.dress.on{z-index:40!important}
+.dress.on .side{opacity:0;transform:scale(var(--k)) scaleX(.55)}
+.dress.on .front{opacity:1;transform:scale(var(--k));filter:drop-shadow(0 22px 24px rgba(96,52,38,.26))}
+.dress.flying{z-index:26!important}
+.hits button{position:absolute;top:276px;height:592px;z-index:50;background:transparent}
+.hits button:focus-visible{outline:2px solid var(--ink);outline-offset:-4px}

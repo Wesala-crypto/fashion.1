@@ -1,0 +1,7 @@
+/* Reset, body, buttons, and the blur applied behind open panels. */
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:Inter,sans-serif;-webkit-font-smoothing:antialiased;color:var(--ink);background:#F2E1D8;overflow:hidden}
+body.mob{overflow-x:hidden;overflow-y:auto}
+button{font:inherit;color:inherit;border:0;background:none;cursor:pointer}
+.hero,nav,.cap{transition:filter .22s}
+body.dim .hero,body.dim nav,body.dim .cap{filter:blur(11px) saturate(.96)}

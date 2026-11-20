@@ -1,0 +1,16 @@
+/* Phone layout, below 820px. */
+@media(max-width:819px){
+.hero{position:relative;min-height:100svh;background:radial-gradient(130% 55% at 50% 0%,#F6E5D9,transparent 70%),#EED7C9;overflow:visible}
+.rack{position:relative;inset:auto;overflow-x:auto;overflow-y:hidden;overscroll-behavior-x:contain;scrollbar-width:none;-webkit-mask-image:linear-gradient(to bottom,transparent 0,#000 64px,#000 calc(100% - 36px),transparent 100%);mask-image:linear-gradient(to bottom,transparent 0,#000 64px,#000 calc(100% - 36px),transparent 100%)}
+.rack::-webkit-scrollbar{display:none}
+.track{position:relative;inset:auto;overflow:hidden}
+.plate.l,.plate.r,.hl,.sub,.credit{display:none}
+.copy{display:block;padding:92px 20px 6px}
+.copy h1{font:400 clamp(56px,17vw,84px)/.87 Anton;text-transform:uppercase;letter-spacing:-.3px;color:var(--ink2)}.copy h1 span{display:block}
+.copy p{font-size:15.5px;line-height:1.48;max-width:300px;margin-top:14px}
+nav{position:absolute}
+.wm{left:20px;top:22px;font-size:27px}.pill{right:16px;top:14px;height:38px;font-size:12.5px;gap:10px;padding:0 6px 0 15px}.pill b{width:26px;height:26px;font-size:13px}
+.cap{position:relative;left:auto!important;top:auto!important;transform:none!important;width:auto;padding:4px 20px 26px;min-height:92px}
+.toast{top:52px}
+.pdp,.bagp{width:100vw;height:100dvh;border-radius:0;inset:0}
+.pdp{grid-template-columns:1fr;grid-template-rows:47dvh 1fr}.inf{padding:24px 22px 30px}.inf h2{font-size:27px;margin-top:14px}}

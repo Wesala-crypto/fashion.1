@@ -1,0 +1,5 @@
+/* Fixed top navigation: wordmark and YOUR BAG pill. */
+nav{position:fixed;left:0;right:0;top:0;z-index:20;pointer-events:none}
+.wm{position:absolute;left:calc(var(--nx) + 84px*var(--n));top:calc(32.5px*var(--n));font:500 calc(46px*var(--n))/1 'Cormorant Garamond',serif;letter-spacing:.14em;color:var(--rg);text-decoration:none;pointer-events:auto}
+.pill{position:absolute;right:calc(var(--nx) + 62px*var(--n));top:calc(20px*var(--n));height:calc(42px*var(--n));border-radius:99px;background:var(--ink);color:#FBF1EC;display:flex;align-items:center;gap:calc(14px*var(--n));padding:0 calc(8px*var(--n)) 0 calc(19px*var(--n));font-size:calc(14px*var(--n));pointer-events:auto;letter-spacing:.04em}
+.pill b{width:calc(27px*var(--n));height:calc(27px*var(--n));border-radius:50%;background:#F8D3CF;color:var(--ink);display:grid;place-items:center;font:500 calc(13px*var(--n)) Inter}

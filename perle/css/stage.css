@@ -1,0 +1,11 @@
+/* Hero, rack/track wrappers, the 1440x900 stage, room plates, rail and headline. */
+.hero{position:fixed;inset:0;overflow:hidden;background:#F2E1D8}
+.rack,.track{position:absolute;inset:0}
+.stage{position:absolute;left:0;top:0;width:1440px;height:900px;transform-origin:0 0}
+.stage img{position:absolute;display:block;pointer-events:none;user-select:none}
+.plate{left:0;top:0;width:1440px;height:900px}.plate.l{left:-1440px;transform:scaleX(-1)}.plate.r{left:1440px;transform:scaleX(-1)}
+.railimg{left:17.7px;top:9.9px;width:1413.8px;height:902.2px;max-width:none}
+.hl{position:absolute;left:83.4px;top:122.5px;font:400 94.5px/83px Anton,sans-serif;text-transform:uppercase;color:var(--ink2);transform:scaleX(.913);transform-origin:0 0;white-space:nowrap}
+.hl span{display:block}
+.sub{position:absolute;left:443px;top:184.7px;width:232px;font-size:16.3px;line-height:24.5px}
+.copy{display:none}
